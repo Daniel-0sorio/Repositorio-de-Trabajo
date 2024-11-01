@@ -1,0 +1,107 @@
+
+body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      
+a {
+        text-decoration: none;
+        color: white;
+}
+
+button {
+        cursor: pointer;
+}
+
+.topnav {
+        overflow: hidden;
+        background-color: #e2504c;
+      }
+      
+.topnav a.active {
+        font-weight: bold;
+        float: left;
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 20px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        background-color: #c63637;
+        border-right: 1px solid rgb(49, 42, 42);
+        color: white;
+      }
+      
+.topnav a.active:hover {
+        transition: .25s;
+        background-color: #FF6961;
+      }
+      
+.topnav .login-register button {
+        text-decoration: none;
+        font-weight: bold;
+        float: right;
+        padding: 9px 10px;
+        margin-top: 8px;
+        margin-right: 16px;
+        background-color: #FF6961;
+        color: white;
+        font-size: 17px;
+        border: 1px solid white;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      
+.topnav .login-register button:hover {
+        font-weight: bold;
+        color: black;
+        background-color: white;
+        border: 1px solid #FF6961;
+      }
+
+.denunciar {
+        border: 2px solid black;
+        background-color: red;
+        color: white;
+        font-size: 30px;
+        font-weight: bold;
+        padding: 20px 150px;
+        border-radius: 10px;
+        
+}
+
+.midbutton {
+        display: flex;
+        justify-content: center;
+}
+
+.dudas {
+        background-color: #0bb7f2;
+        padding: 20px 25px;
+        border-radius: 50%;
+        color: white;
+        border: 2px solid #0979b0;
+        font-size: 18px;
+        font-weight: bold;
+}
+
+.misdenuncias {
+        background-color: #c63637;
+        padding: 15px 30px;
+        color: white;
+        border: 1px solid #FF6961;
+}
+
+.dbutton {
+        position: absolute;
+        left: 30px;
+        bottom: 50px;
+        
+}
+
+.mdbutton {
+        position: absolute;
+        padding-left: 87%;
+        bottom: 57px;
+
+}

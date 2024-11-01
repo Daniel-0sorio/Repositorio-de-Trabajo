@@ -19,7 +19,7 @@ def details(request, id):
   return HttpResponse(template.render(context, request))
   
 def main(request):
-  template = loader.get_template('main.html')
+  template = loader.get_template('home.html')
   return HttpResponse(template.render())
 
 def testing(request):
@@ -28,3 +28,19 @@ def testing(request):
     'fruits': ['(Apple)Okay', '(Banana)Está de Pana', 'Cherry'],   
   }
   return HttpResponse(template.render(context, request))
+
+def iniciar(request):
+  template = loader.get_template('iniciar.html')
+  return HttpResponse(template.render())
+
+def registrar(request):
+  template = loader.get_template('registrar.html')
+  return HttpResponse(template.render())
+
+def registrar(request):
+  template = loader.get_template('informaciones.html')
+  return HttpResponse(template.render())
+
+def misdenuncias(request):
+  template = loader.get_template('misdenuncias.html')
+  return HttpResponse(template.render())
